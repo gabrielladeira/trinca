@@ -70,7 +70,7 @@ Estrutura principal do projeto
     -  Abra um novo terminal e ainda no diretório /backend, execute a aplicação backend 
        utilizando o seguinte comando:
         dotnet run --project Application/TrincaBarbecueApi.Application.csproj
-       Será inicializada a API. Pode ser testada acessando http://localhost:5000/barbecues
+       Será inicializada a API. Pode ser testada acessando http://localhost:5000/barbecue
     
     - Abra um novo terminal e navegue para o diretório da aplicação frontend
     
