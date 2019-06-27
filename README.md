@@ -9,22 +9,21 @@ Para facilitar a organização dos churrascos da Trinca, essa aplicação visa g
 * Para ajudá-lo, elaboramos um protótipo que você pode utilizar (ou não) para projetar sua solução:http://tinyurl.com/zn8ncg3.
 
 Framework:
-    Backend: .Net Core 2.2
-    Frontend: React.js (Node.js v11.13)
+    - Backend: .Net Core 2.2
+    - Frontend: React.js (Node.js v11.13)
 
 Banco de dados:
-    MongoDB (https://www.mongodb.com/)
+    - MongoDB (https://www.mongodb.com/)
 
 Dependêcias:
-    yarn (https://yarnpkg.com/lang/pt-br/docs/install)
-    Docker (https://www.docker.com/)
-    docker-compose (https://docs.docker.com/compose/install/)
+    - Yarn (https://yarnpkg.com/lang/pt-br/docs/install)
+    - Docker (https://www.docker.com/)
+    - docker-compose (https://docs.docker.com/compose/install/)
 
 Estrutura principal do projeto
     - backend # diretório da aplicação backend (API) 
     - frontend # diretório aplicação frontend (React) 
-
-
+    
 
 # Rodando a aplicação:
 
