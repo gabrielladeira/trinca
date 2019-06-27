@@ -54,7 +54,8 @@ Estrutura principal do projeto
     - Navegue até o diretório raiz da aplicação backend
         cd /backend
 
-    - Para facilitar, existe um arquivo docker compose dentro deste diretório para subir um instância MongoDB. Para isso execute o seguinte comando
+    - Para facilitar, existe um arquivo docker compose dentro deste diretório para subir um instância MongoDB. 
+      Para isso execute o seguinte comando:
         docker-compose up
       Uma container docker com MongoDb será inicializado podendo ser acessado por mongodb://localhost:27017
 
