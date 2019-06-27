@@ -72,7 +72,7 @@ class MainContainer extends Component {
           {!next && <div>Nenhum churrasco próximo :(</div>}
         </div>
         {
-          comming && comming.lenght &&
+          comming && comming.length &&
           <div>
             <h2>A Seguir</h2>
             <div className='comming-soon-barbecues'>
