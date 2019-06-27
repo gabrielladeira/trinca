@@ -1,0 +1,21 @@
+version: '2'
+services:
+  barbecue-db:
+    container_name: barbecue-db
+    image: mongo
+    ports:
+      - "27017:27017"
+  barbecue-api:
+    container_name: barbecue-api
+    image: barbecue-api
+    ports:
+      - "5000:80"
+    depends_on:
+      - barbecue-db
+  barbecue-web:
+    container_name: barbecue-web
+    image: barbecue-web
+    ports:
+      - "5013:5000"
+    depends_on:
+      - barbecue-api
