@@ -80,4 +80,10 @@ Estrutura principal do projeto
     - execute a aplicação
         yarn start
     Em seguinda, uma janela de seu navegador padrão abrirá com o endenreço da aplicação
+
+# O que está faltando
+
+* Infelizmente não houve tempo para criar testes para os métodos e telas
+* A edição de um participante não está implementada. Existe um butão na grid porém, não tem ação
+
     
