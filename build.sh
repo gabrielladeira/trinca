@@ -2,7 +2,8 @@ cd backend
 docker build -t barbecue-api .
 
 cd ../frontend
-npm run build
+yarn install
+yarn build
 docker build -t barbecue-web .
 
 cd ..
