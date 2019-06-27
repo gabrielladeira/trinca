@@ -54,18 +54,21 @@ Estrutura principal do projeto
     - Navegue até o diretório raiz da aplicação backend
         cd /backend
 
-    - Para facilitar, existe um arquivo docker compose dentro deste diretório para subir um instância MongoDB. 
-      Para isso execute o seguinte comando:
+    - Para facilitar, existe um arquivo docker compose dentro deste diretório para subir 
+      um instância MongoDB. Para isso execute o seguinte comando:
         docker-compose up
-      Uma container docker com MongoDb será inicializado podendo ser acessado por mongodb://localhost:27017
+      Um container docker com MongoDb será inicializado podendo ser acessado em 
+      mongodb://localhost:27017
 
-      Caso não possua o docker-compose é possível subir uma instacia do MongoDB com os seguintes comandos Docker:
+      Caso não possua o docker-compose é possível subir uma instacia do MongoDB com 
+      os seguintes comandos Docker:
         docker pull mongo
         docker run -p 27018:27017 mongo
 
       *(Se não possui docker instalado será necessário instalá-lo ou então instalar o MongoDB)
 
-    -  Abra um novo terminal e ainda no diretório /backend, execute a aplicação backend utilizando o seguinte comando:
+    -  Abra um novo terminal e ainda no diretório /backend, execute a aplicação backend 
+       utilizando o seguinte comando:
         dotnet run --project Application/TrincaBarbecueApi.Application.csproj
        Será inicializada a API. Pode ser testada acessando http://localhost:5000/barbecues
     
