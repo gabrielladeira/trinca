@@ -1,6 +1,6 @@
 # Os Churrascos da Trinca
 
-Para facilitar a organização do churrascos da Trinca, essa aplicação visa gerenciar esses churrascos onde deve ser possível:
+Para facilitar a organização dos churrascos da Trinca, essa aplicação visa gerenciar esses churrascos onde deve ser possível:
 
 * Incluir um novo churrasco com data, descrição e observações adicionais;
 * Adicionar e remover participantes (colocando o seu valor de contribuição);
